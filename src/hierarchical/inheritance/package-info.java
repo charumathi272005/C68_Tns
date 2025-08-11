@@ -1,0 +1,1 @@
+package hierarchical.inheritance;
