@@ -1,7 +1,7 @@
 package functional.inface;
 @FunctionalInterface
 
-public class GreetingDemo {
+public interface GreetingDemo {
 
 
 	void greet(); //used for declaration

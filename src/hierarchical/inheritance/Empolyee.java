@@ -7,19 +7,19 @@ public class Empolyee extends Person {
 		private String dept;
 		
 		
-		public Employee() {
+		public void Employee() {
 			System.out.println("Employee Class Default Constructor");
 		}
 
 
-		public Employee(int empId, float salary, String dept) {
+		public void Employee(int empId, float salary, String dept) {
 			this.empId = empId;
 			this.salary = salary;
 			this.dept = dept;
 		}
 		
 		
-		public Employee(String name, String city,int empId, float salary, String dept) {
+		public void Employee(String name, String city,int empId, float salary, String dept) {
 			super(name,city);
 			this.empId = empId;
 			this.salary = salary;

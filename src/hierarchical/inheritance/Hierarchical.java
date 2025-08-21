@@ -1,5 +1,6 @@
 package hierarchical.inheritance;
 
+
 public class Hierarchical {
 	public static void main(String[] args) {
 		Person p1 = new Person();
